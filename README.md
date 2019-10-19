@@ -14,5 +14,7 @@ top X percent of the results, where X is defined by the topPerformersThreshold
 property of the report definition.
 
 -The score is calculated based on the following rules:
+
 If useExperienceMultiplier is set to true -> score = totalSales/salesPeriod*experienceMultiplier
+
 If useExperienceMultiplier is set to false -> score = totalSales/salesPeriod
